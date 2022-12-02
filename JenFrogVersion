@@ -6,7 +6,7 @@ pipeline {
           steps {
             sh 'echo ${BUILD_NUMBER}'
             sh 'mvn deploy'
-            sh 'scp -r target/hello-world-war-1.0.0.war root@72.31.2.183:/opt/tomcat/webapps'
+            sh 'scp -R target/hello-world-war-1.0.0.war root@172.31.2.183:/opt/tomcat/webapps'
           }        
       }
   }
