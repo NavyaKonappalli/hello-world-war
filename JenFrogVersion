@@ -5,6 +5,8 @@ pipeline {
         agent { label 'slaveone' }
           steps {
             sh 'echo ${BUILD_NUMBER}'
+            sh 'mvn deploy'
+            sh 'scp -r target/hello-world-war-1.0.0.war root@72.31.2.183:/opt/tomcat/webapps'
           }        
       }
   }
