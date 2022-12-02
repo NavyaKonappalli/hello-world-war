@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Madhusudhan profile </title>
+  <title> Navya Profile!! </title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .card {
@@ -47,7 +47,7 @@ button:hover, a:hover {
 
 <div class="card">
   <img src="./edit.jpg" alt="John" style="width:100%">
-  <h1>Madhusudhan</h1>
+  <h1>NavyaKonappalli</h1>
   <p class="title">Devops Profile</p>
   <p>Beginner</p>
   <div style="margin: 24px 0;">
