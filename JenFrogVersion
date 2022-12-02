@@ -13,7 +13,7 @@ pipeline {
           agent {label 'slavetwo'}
             steps{
                 sh 'sudo sh /opt/tomcat/bin/startup.sh'
-                sh 'curl -ukonappalli.navya@gmail.com:cmVmdGtuOjAxOjAwMDAwMDAwMDA6OXc2U1ZqMElBdnpWa2NtdGNhTGdabk5FZ3NH -O hello-world-war-${BUILD_NUMBER}.war https://navyashreekonappalli.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/${BUILD_NUMBER}/hello-world-war-${BUILD_NUMBER}.war'
+                sh 'curl -ukonappalli.navya@gmail.com:cmVmdGtuOjAxOjAwMDAwMDAwMDA6OXc2U1ZqMElBdnpWa2NtdGNhTGdabk5FZ3NH -O https://navyashreekonappalli.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/${BUILD_NUMBER}/hello-world-war-${BUILD_NUMBER}.war'
       
 
             }
