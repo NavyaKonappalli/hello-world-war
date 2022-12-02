@@ -25,5 +25,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+              <repository>
+        <id>central</id>
+        <name>a0ejcs7xu6dvz-artifactory-primary-0-releases</name>
+        <url>https://navyashreekonappalli.jfrog.io/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
 
 </project>
