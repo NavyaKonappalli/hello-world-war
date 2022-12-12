@@ -16,7 +16,7 @@ pipeline {
 		    sh 'sh /opt/tomcat/bin/shutdown.sh'                   
                     sh 'sleep 3'
                     sh 'sh /opt/tomcat/bin/startup.sh'
-                    echo "diployment is sucessfull"
+                    echo "deployment is sucessfull"
                     echo "copy the public ip of instace and open it in browser with port:8090"
 		}
 	   } 	   
