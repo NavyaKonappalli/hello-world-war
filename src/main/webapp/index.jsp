@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Navya Profile!! </title>
+  <title> Hey Navya!! </title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .card {
@@ -43,13 +43,13 @@ button:hover, a:hover {
 </head>
 <body>
 
-<h2 style="text-align:center">Her Image</h2>
+<h2 style="text-align:center">Navya's_Pico</h2>
 
 <div class="card">
-  <img src="./35141.JPG" alt="John" style="width:100%">
+  <img src="./35141.jpg" alt="John" style="width:100%">
   <h1>NavyaKonappalli</h1>
-  <p class="title">Navya's_Pico</p>
-  <p>Beginner</p>
+  <p class="title">Just a Picture</p>
+  <p>Her Fav One</p>
   <div style="margin: 24px 0;">
     <a href="#"><i class="fa fa-dribbble"></i></a> 
     <a href="#"><i class="fa fa-twitter"></i></a>  
