@@ -43,12 +43,12 @@ button:hover, a:hover {
 </head>
 <body>
 
-<h2 style="text-align:center">User Profile Card</h2>
+<h2 style="text-align:center">Her Image</h2>
 
 <div class="card">
-  <img src="./IMG_8695.JPG" alt="John" style="width:100%">
+  <img src="./35141.JPG" alt="John" style="width:100%">
   <h1>NavyaKonappalli</h1>
-  <p class="title">Devops Profile</p>
+  <p class="title">Navya's_Pico</p>
   <p>Beginner</p>
   <div style="margin: 24px 0;">
     <a href="#"><i class="fa fa-dribbble"></i></a> 
